@@ -55,22 +55,22 @@ By completing this repository, you will learn:
 
 ## Chapter 2 - Git Basics
 
-- [ ] Install Git
-- [ ] Configure Git
-- [ ] Git Repository
-- [ ] Working Directory
-- [ ] Staging Area
-- [ ] Git Status
-- [ ] Git Add
-- [ ] Git Commit
-- [ ] Git Log
-- [ ] Git Diff
+- [x] Install Git
+- [x] Configure Git
+- [x] Git Repository
+- [x] Working Directory
+- [x] Staging Area
+- [x] Git Status
+- [x] Git Add
+- [x] Git Commit
+- [x] Git Log
+- [x] Git Diff
 
 ---
 
 ## Chapter 3 - GitHub Basics
 
-- [ ] Repository
+- [x] Repository
 - [ ] README
 - [ ] Fork
 - [ ] Clone
