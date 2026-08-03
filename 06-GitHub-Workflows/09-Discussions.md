@@ -203,7 +203,6 @@ Maintainers respond with suggestions and links to beginner-friendly tasks.
 - Keeps Issues focused on actionable work.
 - Creates a searchable knowledge base.
 - Supports long-term conversations.
-- Reduces repeated questions.
 
 ---
 
