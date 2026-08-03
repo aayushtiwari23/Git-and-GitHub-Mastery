@@ -363,3 +363,30 @@ They help teams organize work, monitor progress, and collaborate efficiently.
 
 ---
 
+# Practice
+
+1. Create a new GitHub Project.
+2. Name it:
+
+```text
+GitHub Mastery
+```
+
+3. Create columns:
+
+- Backlog
+- To Do
+- In Progress
+- Review
+- Testing
+- Done
+
+4. Add five tasks.
+
+5. Move tasks between columns as you complete them.
+
+---
+
+# Summary
+
+GitHub Projects is a powerful project management tool that helps developers organize work, track progress, and collaborate effectively. Whether working alone or in a large team, GitHub Projects makes software development more structured and efficient.
