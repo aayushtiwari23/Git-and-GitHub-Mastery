@@ -257,3 +257,22 @@ To build a community, reduce duplicate Issues, support contributors, and create 
 
 ---
 
+# Practice
+
+1. Enable Discussions for one of your repositories.
+2. Create the following categories:
+   - Questions
+   - Ideas
+   - Announcements
+   - General
+3. Start your first discussion:
+   - **Title:** Welcome to the GitHub Mastery Repository
+   - Introduce the project and invite feedback.
+4. Reply to your own discussion with contribution guidelines.
+5. Mark a helpful reply as the accepted answer (if applicable).
+
+---
+
+# Summary
+
+GitHub Discussions is an excellent tool for building an active community around a repository. It separates conversations from development tasks, encourages collaboration, and helps create a searchable knowledge base for current and future contributors.
