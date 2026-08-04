@@ -429,4 +429,21 @@ It helps detect bugs, performance issues, and unexpected behavior in production.
 
 ---
 
-# 
+# Practice
+
+1. Create a GitHub Issue.
+2. Create a feature branch linked to the Issue.
+3. Make a small change.
+4. Commit and push your work.
+5. Open a Pull Request.
+6. Run GitHub Actions.
+7. Review the Pull Request.
+8. Merge the Pull Request.
+9. Delete the branch.
+10. Verify the Issue is automatically closed.
+
+---
+
+# Summary
+
+The Professional GitHub Workflow is the foundation of modern software engineering. It combines Git, GitHub, automation, code reviews, testing, and deployment into a reliable process that enables teams to build and maintain high-quality software efficiently. Mastering this workflow prepares you for professional development environments, technical interviews, and successful open-source contributions.
