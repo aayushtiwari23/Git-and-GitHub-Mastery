@@ -286,3 +286,37 @@ git stash -u
 
 ---
 
+# Practice
+
+1. Modify a file.
+2. Run:
+
+```bash
+git stash
+```
+
+3. Verify:
+
+```bash
+git status
+```
+
+4. List all stashes:
+
+```bash
+git stash list
+```
+
+5. Restore your work:
+
+```bash
+git stash pop
+```
+
+6. Continue development.
+
+---
+
+# Summary
+
+Git Stash is a powerful feature that temporarily saves unfinished work without creating a commit. It allows developers to switch tasks quickly, keep commit history clean, and return to their work whenever they are ready.
