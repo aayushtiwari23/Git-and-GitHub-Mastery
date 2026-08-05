@@ -1,4 +1,3 @@
-
 # Git Cherry-pick
 
 ## Introduction
