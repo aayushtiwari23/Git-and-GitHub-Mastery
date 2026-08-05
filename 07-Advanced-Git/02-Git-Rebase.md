@@ -316,4 +316,33 @@ git rebase --abort
 ```
 
 ---
+# Practice
 
+1. Create a feature branch.
+2. Make three small commits.
+3. Update the `main` branch.
+4. Run:
+
+```bash
+git rebase main
+```
+
+5. Resolve any conflicts if they occur.
+6. Try:
+
+```bash
+git rebase -i HEAD~3
+```
+
+7. Squash the three commits into one.
+8. Verify the commit history with:
+
+```bash
+git log --oneline
+```
+
+---
+
+# Summary
+
+Git Rebase is a powerful Git command that creates a clean and linear commit history by replaying commits onto another branch. It is widely used in professional software development to simplify project history, improve code reviews, and maintain an organized repository. Developers should use it carefully, especially when collaborating on shared branches.
