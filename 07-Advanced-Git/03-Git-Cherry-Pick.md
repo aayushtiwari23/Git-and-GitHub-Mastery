@@ -292,4 +292,26 @@ When only selected commits need to be transferred instead of merging an entire b
 
 ---
 
-software development and technical interviews.
+# Practice
+
+1. Create two branches.
+2. Make two commits on one branch.
+3. Copy one commit to the other branch using:
+
+```bash
+git cherry-pick <commit-hash>
+```
+
+4. Verify the history:
+
+```bash
+git log --oneline
+```
+
+5. Compare both branches.
+
+---
+
+# Summary
+
+Git Cherry-pick is a powerful Git command that copies selected commits from one branch to another. It is especially useful for hotfixes, backporting bug fixes, and selectively applying changes without merging an entire branch. Mastering Cherry-pick is valuable for both professional software development and technical interviews.
