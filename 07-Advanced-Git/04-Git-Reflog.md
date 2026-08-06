@@ -289,3 +289,36 @@ git reset --hard HEAD@{n}
 
 ---
 
+# Practice
+
+1. Create a repository.
+2. Make three commits.
+3. Run:
+
+```bash
+git reset --hard HEAD~1
+```
+
+4. View:
+
+```bash
+git reflog
+```
+
+5. Restore the lost commit using:
+
+```bash
+git reset --hard HEAD@{1}
+```
+
+6. Verify with:
+
+```bash
+git log --oneline
+```
+
+---
+
+# Summary
+
+Git Reflog is one of the most valuable recovery tools in Git. It records local reference changes and allows developers to recover lost commits, deleted branches, and previous repository states. Understanding Reflog gives you confidence to work with advanced Git commands because many mistakes can be undone using its history.
