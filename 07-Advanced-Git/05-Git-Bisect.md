@@ -351,3 +351,23 @@ git bisect run <script>
 
 ---
 
+# Practice
+
+1. Create several commits.
+2. Introduce a small bug.
+3. Start Git Bisect.
+4. Mark one good commit and one bad commit.
+5. Follow Git's prompts until the faulty commit is found.
+6. Run:
+
+```bash
+git bisect reset
+```
+
+7. Verify you're back on your original branch.
+
+---
+
+# Summary
+
+Git Bisect is an advanced debugging tool that uses binary search to efficiently locate the commit responsible for introducing a bug. It is especially valuable in large projects, where manually checking every commit would be time-consuming. Mastering Git Bisect makes debugging faster, more systematic, and more reliable.
