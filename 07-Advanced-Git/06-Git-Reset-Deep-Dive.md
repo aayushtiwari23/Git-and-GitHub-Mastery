@@ -1,4 +1,3 @@
-
 # Git Reset (Deep Dive)
 
 ## Introduction
