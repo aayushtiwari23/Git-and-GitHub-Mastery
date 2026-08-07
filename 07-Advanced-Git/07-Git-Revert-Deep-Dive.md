@@ -93,7 +93,6 @@ Revert:
 ```bash
 git revert a1b2c3d
 ```
-
 ---
 
 # Revert Multiple Commits
