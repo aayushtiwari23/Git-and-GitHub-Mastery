@@ -1,4 +1,3 @@
-
 # Git Submodules
 
 ## Introduction
