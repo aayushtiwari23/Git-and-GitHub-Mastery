@@ -352,18 +352,3 @@ git submodule update --init --recursive
 
 ---
 
-# Practice
-
-1. Create two Git repositories.
-2. Use one as the main project.
-3. Add the second repository as a submodule.
-4. Commit the `.gitmodules` file.
-5. Clone the main repository into another directory.
-6. Initialize the submodule.
-7. Verify the submodule contents.
-
----
-
-# Summary
-
-Git Submodules allow one Git repository to depend on another repository while keeping both repositories independently managed. They are useful for shared libraries, SDKs, and large projects where components need separate version control.
