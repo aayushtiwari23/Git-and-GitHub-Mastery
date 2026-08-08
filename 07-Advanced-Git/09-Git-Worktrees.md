@@ -1,4 +1,3 @@
-
 # Git Worktrees
 
 ## Introduction
