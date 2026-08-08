@@ -336,3 +336,32 @@ git worktree remove <path>
 Worktrees share the same repository data and Git history, reducing duplication while allowing multiple branches to be checked out simultaneously.
 
 ---
+# Practice
+
+1. Create a Git repository.
+2. Create a feature branch.
+3. Create a Worktree:
+
+```bash
+git worktree add ../feature feature
+```
+
+4. Make a change inside the Worktree.
+5. Return to the original directory.
+6. List Worktrees:
+
+```bash
+git worktree list
+```
+
+7. Remove the Worktree:
+
+```bash
+git worktree remove ../feature
+```
+
+---
+
+# Summary
+
+Git Worktrees allow developers to work on multiple branches simultaneously using separate directories connected to the same repository. They are particularly useful for parallel development, emergency production fixes, and situations where switching branches repeatedly would interrupt unfinished work.
