@@ -1,4 +1,3 @@
-
 # Advanced Git Best Practices
 
 ## Introduction
