@@ -1,4 +1,3 @@
-
 # GitHub Repository Security Basics
 
 ## Introduction
