@@ -1,4 +1,3 @@
-
 # GitHub Secret Scanning
 
 ## Introduction
