@@ -1,4 +1,3 @@
-
 # Code Scanning and CodeQL
 
 ## Introduction
