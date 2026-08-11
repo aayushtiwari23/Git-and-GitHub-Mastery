@@ -390,4 +390,53 @@ Yes. Code scanning can be integrated into Pull Request workflows to identify sec
 No. Automated analysis cannot detect every possible security problem.
 
 ---
+# Practice
+
+1. Create or open a GitHub repository.
+2. Open the repository's:
+
+```text
+Security
+```
+
+section.
+
+3. Explore:
+
+```text
+Code scanning
+```
+
+4. Check whether CodeQL is available for your repository.
+5. Explore the setup options.
+6. If appropriate, enable the default CodeQL workflow.
+7. Create a small code change.
+8. Open a Pull Request.
+9. Observe the security checks.
+
+Do not intentionally introduce a real exploitable vulnerability into a public repository just for testing.
+
+---
+
+# Summary
+
+GitHub Code Scanning helps identify potential security vulnerabilities and coding problems automatically.
+
+CodeQL provides powerful semantic analysis that can understand relationships within source code rather than simply searching for text.
+
+A strong security workflow combines:
+
+```text
+Code Scanning
++
+Dependabot
++
+Secret Scanning
++
+Code Review
++
+Testing
+```
+
+Together, these practices help developers detect and fix security problems earlier in the software development lifecycle.
 
