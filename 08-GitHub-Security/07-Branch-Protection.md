@@ -1,4 +1,3 @@
-
 # GitHub Branch Protection
 
 ## Introduction
