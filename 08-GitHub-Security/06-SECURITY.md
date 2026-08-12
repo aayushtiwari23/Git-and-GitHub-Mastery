@@ -74,3 +74,8 @@ It does not cover vulnerabilities in third-party services or dependencies that a
 
 ---
 
+## Important Note
+
+This repository is primarily intended for learning and educational purposes.
+
+Do not use it to store production credentials, private information, or other sensitive data.
