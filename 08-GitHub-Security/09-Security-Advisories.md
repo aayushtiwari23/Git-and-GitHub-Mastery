@@ -1,4 +1,3 @@
-
 # GitHub Security Advisories
 
 ## Introduction
