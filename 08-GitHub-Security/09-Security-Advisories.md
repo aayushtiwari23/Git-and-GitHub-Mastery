@@ -337,3 +337,84 @@ Secret Scanning   Code Scanning   Dependabot
 
 ---
 
+# Common Mistakes
+
+- Publishing vulnerabilities before a fix is available.
+- Reporting security issues publicly when private reporting is available.
+- Ignoring vulnerability reports.
+- Failing to identify affected versions.
+- Not notifying users about important security fixes.
+- Leaving vulnerable versions undocumented.
+
+---
+
+# Interview Questions
+
+### What is a GitHub Security Advisory?
+
+It is a structured mechanism for documenting and communicating security vulnerabilities affecting a project.
+
+---
+
+### Why use private vulnerability reporting?
+
+It allows maintainers to investigate and fix security issues without immediately exposing sensitive vulnerability details publicly.
+
+---
+
+### What is CVE?
+
+CVE stands for Common Vulnerabilities and Exposures and provides standardized identifiers for publicly known vulnerabilities.
+
+---
+
+### What is CVSS?
+
+CVSS stands for Common Vulnerability Scoring System and is used to communicate the severity of security vulnerabilities.
+
+---
+
+### Why should vulnerabilities be responsibly disclosed?
+
+Responsible disclosure gives maintainers an opportunity to investigate and fix vulnerabilities before detailed information becomes widely available to attackers.
+
+---
+
+# Practice
+
+1. Open a GitHub repository.
+2. Go to the repository's:
+   
+```text
+Security
+```
+
+3. Explore the available security features.
+4. Look for security advisory options.
+5. Review how vulnerability reporting works.
+6. Do not create a fake vulnerability report just for practice.
+7. Read the security policy before reporting a real vulnerability.
+
+---
+
+# Summary
+
+GitHub Security Advisories provide a structured way to manage and communicate security vulnerabilities.
+
+A responsible security process generally follows:
+
+```text
+Report
+  ↓
+Investigate
+  ↓
+Fix
+  ↓
+Test
+  ↓
+Release
+  ↓
+Disclose
+```
+
+The goal is to protect users while giving maintainers enough time to develop and release a reliable fix.
