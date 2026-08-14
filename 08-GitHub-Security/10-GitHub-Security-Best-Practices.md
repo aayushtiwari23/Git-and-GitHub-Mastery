@@ -1,4 +1,3 @@
-
 GitHub Security Best Practices
 
 Introduction
