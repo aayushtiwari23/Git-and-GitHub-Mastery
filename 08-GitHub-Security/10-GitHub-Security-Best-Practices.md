@@ -5,7 +5,6 @@ Introduction
 GitHub security is not a single feature. A secure repository uses multiple layers of protection to reduce the risk of leaked credentials, vulnerable dependencies, insecure code, and unauthorized changes.
 
 ---
-
 Security Layers
 
 A strong GitHub security setup can include:
