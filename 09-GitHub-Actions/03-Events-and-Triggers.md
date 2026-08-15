@@ -1,4 +1,3 @@
-
 # GitHub Actions Events and Triggers
 
 ## Introduction
