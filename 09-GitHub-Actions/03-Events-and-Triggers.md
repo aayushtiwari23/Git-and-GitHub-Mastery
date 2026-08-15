@@ -149,7 +149,6 @@ on:
 ```
 
 The workflow runs for pushes to either branch.
-
 ---
 
 # Branch Patterns
