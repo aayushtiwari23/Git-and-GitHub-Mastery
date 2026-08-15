@@ -835,3 +835,24 @@ Open the workflow run and inspect each step's logs.
 
 ---
 
+# Summary
+
+GitHub Actions workflows use YAML to describe automated processes.
+
+The fundamental structure is:
+
+```text
+Workflow
+   ↓
+Trigger
+   ↓
+Jobs
+   ↓
+Runner
+   ↓
+Steps
+   ↓
+Commands / Actions
+```
+
+Once YAML workflow syntax becomes comfortable, you can start building real CI/CD automation.
