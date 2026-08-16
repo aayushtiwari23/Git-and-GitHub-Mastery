@@ -1,4 +1,3 @@
-
 # GitHub Actions Jobs, Steps and Runners
 
 ## Introduction
