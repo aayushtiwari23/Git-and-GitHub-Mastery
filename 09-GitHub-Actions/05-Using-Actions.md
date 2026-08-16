@@ -14,7 +14,6 @@ A simple example is:
 ```
 
 ---
-
 # What is an Action?
 
 An Action is a reusable piece of automation.
