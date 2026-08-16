@@ -11,7 +11,6 @@ Runners
 ```
 
 Understanding how these three work together is essential for creating workflows.
-
 ---
 
 # Basic Structure
