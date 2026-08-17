@@ -86,7 +86,7 @@ The variable is available within that job.
 
 You can also define a variable for only one step.
 
-Example:
+Example
 
 ```yaml
 steps:
