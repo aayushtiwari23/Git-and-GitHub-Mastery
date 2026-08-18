@@ -1,4 +1,3 @@
-
 # GitHub Actions Artifacts and Caching
 
 ## Introduction
