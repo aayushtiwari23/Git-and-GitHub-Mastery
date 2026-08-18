@@ -1,6 +1,5 @@
 
 # GitHub Actions Conditions and Expressions
-
 ## Introduction
 
 GitHub Actions allows workflows to make decisions.
