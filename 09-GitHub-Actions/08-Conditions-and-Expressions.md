@@ -1,7 +1,26 @@
 
 # GitHub Actions Conditions and Expressions
 
-## 
+## Introduction
+
+GitHub Actions allows workflows to make decisions.
+
+You can control whether a job or step should run using:
+
+```text
+Conditions
+Expressions
+Contexts
+Functions
+```
+
+This makes workflows more flexible.
+
+---
+
+# Why Conditions Matter
+
+Without conditions:
 
 ```text
 Build
