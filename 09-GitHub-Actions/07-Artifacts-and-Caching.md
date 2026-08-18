@@ -20,11 +20,7 @@ It also provides **caching** to speed up repeated workflow runs.
 
 ---
 
-# What is an Artifact?
-
-An artifact is a file or collection of files produced during a workflow run that you want to preserve or share.
-
-Conceptually:
+# 
 
 ```text
 Source Code
