@@ -1,4 +1,3 @@
-
 # GitHub Actions Matrix Strategy
 
 ## Introduction
