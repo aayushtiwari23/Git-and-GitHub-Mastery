@@ -882,3 +882,36 @@ Deploy
 ```
 
 ---
+# Summary
+
+A deployment workflow automates the path from code to a running application.
+
+The basic structure is:
+
+```text
+Code
+ ↓
+Build
+ ↓
+Test
+ ↓
+Staging
+ ↓
+Approval
+ ↓
+Production
+```
+
+Important concepts:
+
+```text
+CI/CD
+Deployment
+Environments
+Secrets
+Protected Deployments
+Rollback
+Deployment Strategies
+```
+
+A good deployment pipeline should be **automated, tested, controlled, and reversible**.
