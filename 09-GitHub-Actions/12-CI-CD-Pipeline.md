@@ -1,4 +1,51 @@
+# CI/CD Pipeline with GitHub Actions
 
+## Introduction
+
+CI/CD is one of the main reasons GitHub Actions is used in real software projects.
+
+CI means:
+
+**Continuous Integration**
+
+CD means:
+
+**Continuous Delivery** or **Continuous Deployment**
+
+A typical pipeline looks like:
+
+```text
+Code
+ ↓
+Push
+ ↓
+Build
+ ↓
+Test
+ ↓
+Security Checks
+ ↓
+Package
+ ↓
+Deploy
+```
+
+---
+
+# Continuous Integration
+
+Continuous Integration means frequently integrating code changes into a shared repository and automatically validating those changes.
+
+A CI pipeline may:
+
+```text
+Checkout Code
+     ↓
+Install Dependencies
+     ↓
+Build
+     ↓
+Run Tests
 
      ↓
 Generate Reports
