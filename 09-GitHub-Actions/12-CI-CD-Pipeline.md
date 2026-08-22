@@ -1,4 +1,3 @@
-
 # CI/CD Pipeline with GitHub Actions
 
 ## Introduction
