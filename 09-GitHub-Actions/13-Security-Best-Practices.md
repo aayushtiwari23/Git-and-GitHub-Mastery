@@ -1,3 +1,149 @@
+# GitHub Actions Security Best Practices
+
+## Introduction
+
+GitHub Actions workflows can access source code, secrets, packages, and deployment systems.
+
+Because of this, workflow security is extremely important.
+
+A secure workflow follows:
+
+```text
+Minimum Access
+      ↓
+Protected Secrets
+      ↓
+Trusted Actions
+      ↓
+Controlled Workflows
+      ↓
+Safe Deployment
+```
+
+---
+
+# Principle of Least Privilege
+
+Give a workflow only the permissions it actually needs.
+
+Example:
+
+```yaml
+permissions:
+  contents: read
+```
+
+This allows the workflow to read repository contents without automatically granting unnecessary write permissions.
+
+---
+
+# Why Permissions Matter
+
+A workflow may have access to:
+
+```text
+Repository
+Secrets
+Packages
+Cloud Services
+Deployment Systems
+```
+
+If an attacker compromises a workflow, excessive permissions can increase the damage.
+
+Therefore:
+
+```text
+More Permissions
+      ↓
+Higher Potential Risk
+```
+
+---
+
+# Define Permissions Explicitly
+
+Example:
+
+```yaml
+name: Secure Workflow
+
+on:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Test
+        run: echo "Running tests"
+```
+
+Use additional permissions only when required.
+
+---
+
+# Secrets
+
+Never hardcode sensitive information.
+
+Bad:
+
+```yaml
+env:
+  API_KEY: "real-api-key"
+```
+
+Better:
+
+```yaml
+env:
+  API_KEY: ${{ secrets.API_KEY }}
+```
+
+Store sensitive values using GitHub Secrets or an appropriate external secret-management system.
+
+---
+
+# Never Print Secrets
+
+Do not do this:
+
+```yaml
+run: echo "$API_KEY"
+```
+
+Instead:
+
+```yaml
+run: echo "API key is configured"
+```
+
+Even with log masking, secrets should never be intentionally exposed.
+
+---
+
+# Secret Exposure
+
+If a secret is accidentally exposed:
+
+```text
+Secret Exposed
+      ↓
+Immediately Revoke / Rotate
+      ↓
+Investigate Exposure
+      ↓
+Clean Up
+      ↓
+Create Replacement
 
 ```
 
