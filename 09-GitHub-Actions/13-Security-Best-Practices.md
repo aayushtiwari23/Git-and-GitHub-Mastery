@@ -1,4 +1,4 @@
-
+# GitHub Actions Security Best Practices
 
 ## Introduction
 
