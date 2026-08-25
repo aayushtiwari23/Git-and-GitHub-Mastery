@@ -5,7 +5,6 @@
 After  learning the fundamentals of GitHub Actions, we can combine them to build more advanced workflows.
 
 Important concepts include:
-
 ```text
 Contexts
 Outputs
