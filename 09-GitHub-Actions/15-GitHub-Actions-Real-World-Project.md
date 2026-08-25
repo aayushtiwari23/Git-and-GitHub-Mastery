@@ -1,4 +1,4 @@
-# GitHub Actions Real-World Project
+#  Actions Real-World Project
 
 ## Project Overview
 
