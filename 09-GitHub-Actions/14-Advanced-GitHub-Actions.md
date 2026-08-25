@@ -1,5 +1,150 @@
+#Advanced GitHub Actions
 
-# # Job Outputs
+## Introduction
+
+After learning the fundamentals of GitHub Actions, we can combine them to build more advanced workflows.
+
+Important concepts include:
+
+```text
+Contexts
+Outputs
+Artifacts
+Matrices
+Reusable Workflows
+Environments
+Concurrency
+Manual Inputs
+Dynamic Workflows
+```
+
+---
+
+# Workflow Inputs
+
+A workflow triggered manually with `workflow_dispatch` can accept inputs.
+
+Example:
+
+```yaml
+name: Manual Deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Deployment environment"
+        required: true
+        type: choice
+        options:
+          - staging
+          - production
+```
+
+The user can select an environment when starting the workflow.
+
+---
+
+# Using Workflow Inputs
+
+Inputs can be accessed using:
+
+```yaml
+${{ inputs.environment }}
+```
+
+Example:
+
+```yaml
+- name: Show Environment
+  run: echo "Deploying to ${{ inputs.environment }}"
+```
+
+Flow:
+
+```text
+Run Workflow
+     ↓
+Select Environment
+     ↓
+Workflow Starts
+     ↓
+Use Input
+```
+
+---
+
+# Boolean Inputs
+
+Example:
+
+```yaml
+on:
+  workflow_dispatch:
+    inputs:
+      run-tests:
+        description: "Run tests?"
+        required: true
+        type: boolean
+        default: true
+```
+
+Then:
+
+```yaml
+if: ${{ inputs.run-tests }}
+```
+
+The step runs only when the input is true.
+
+---
+
+# Choice Inputs
+
+Example:
+
+```yaml
+type: choice
+options:
+  - development
+  - staging
+  - production
+```
+
+This prevents users from entering arbitrary values.
+
+---
+
+# Environment Inputs
+
+Example:
+
+```yaml
+name: Deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        required: true
+        options:
+          - staging
+          - production
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy
+        run: echo "Deploying to ${{ inputs.environment }}"
+```
+
+---
+
+
+#  Job Outputs
 
 Outputs allow one job to provide information to another job.
 
