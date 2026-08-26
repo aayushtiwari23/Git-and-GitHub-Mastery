@@ -1,3 +1,180 @@
+# GitHub Issues
+
+## Introduction
+
+GitHub Issues are used to track:
+
+- Bugs
+- Features
+- Tasks
+- Improvements
+- Questions
+- Project work
+
+A typical development process looks like:
+
+```text
+Issue
+  ↓
+Planning
+  ↓
+Development
+  ↓
+Pull Request
+  ↓
+Review
+  ↓
+Merge
+  ↓
+Close Issue
+```
+
+---
+
+# Why Use Issues?
+
+Without Issues:
+
+```text
+"Fix login bug"
+"Add dark mode"
+"Update documentation"
+```
+
+may exist only in chat messages or personal notes.
+
+With Issues:
+
+```text
+Issue #1 → Fix login bug
+Issue #2 → Add dark mode
+Issue #3 → Update documentation
+```
+
+Each task becomes trackable.
+
+---
+
+# Creating an Issue
+
+Typical steps:
+
+```text
+Repository
+   ↓
+Issues
+   ↓
+New Issue
+   ↓
+Title
+   ↓
+Description
+   ↓
+Create Issue
+```
+
+---
+
+# Issue Title
+
+Use a clear title.
+
+Good:
+
+```text
+Fix login validation error
+```
+
+Bad:
+
+```text
+Bug
+```
+
+Good:
+
+```text
+Add dark mode to dashboard
+```
+
+Bad:
+
+```text
+New feature
+```
+
+The title should immediately communicate the task.
+
+---
+
+# Issue Description
+
+A useful issue can contain:
+
+```text
+Problem
+Expected Behavior
+Actual Behavior
+Steps to Reproduce
+Possible Solution
+Additional Information
+```
+
+Example:
+
+```md
+## Problem
+
+The login form accepts an invalid email address.
+
+## Expected Behavior
+
+The application should reject invalid email addresses.
+
+## Actual Behavior
+
+The form submits successfully.
+
+## Steps to Reproduce
+
+1. Open login page
+2. Enter invalid email
+3. Click Login
+4. Observe result
+```
+
+---
+
+# Labels
+
+Labels categorize Issues.
+
+Common examples:
+
+```text
+bug
+feature
+documentation
+enhancement
+good first issue
+help wanted
+```
+
+Example:
+
+```text
+Issue #12
+Fix login validation
+Labels:
+bug
+high-priority
+```
+
+---
+
+# Milestones
+
+Milestones group Issues around a larger goal.
 
 Example:
 
