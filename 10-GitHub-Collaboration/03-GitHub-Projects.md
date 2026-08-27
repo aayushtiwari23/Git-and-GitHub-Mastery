@@ -1,3 +1,146 @@
+# GitHub Projects
+
+## Introduction
+
+GitHub Projects is used to organize and track work across Issues and Pull Requests.
+
+It helps answer:
+
+```text
+What needs to be done?
+What is currently being worked on?
+What is completed?
+What should be done next?
+```
+
+A simple workflow is:
+
+```text
+Ideas
+  ↓
+Todo
+  ↓
+In Progress
+  ↓
+Review
+  ↓
+Done
+```
+
+---
+
+# Project vs Repository
+
+A repository contains the actual code and files.
+
+A Project is used to organize work.
+
+```text
+Repository
+   ↓
+Code
+Issues
+Pull Requests
+
+Project
+   ↓
+Planning
+Tracking
+Priorities
+```
+
+A Project can help organize work across one or multiple repositories.
+
+---
+
+# Creating a Project
+
+Typical process:
+
+```text
+GitHub
+ ↓
+Projects
+ ↓
+New Project
+ ↓
+Choose View
+ ↓
+Create
+```
+
+You can then add Issues and Pull Requests.
+
+---
+
+# Project Views
+
+GitHub Projects can represent work using different views.
+
+Common approaches include:
+
+```text
+Table
+Board
+Roadmap
+```
+
+Each view presents the same underlying work in a different way.
+
+---
+
+# Table View
+
+A table is useful for detailed tracking.
+
+Example:
+
+| Task | Status | Priority |
+|---|---|---|
+| Login | Todo | High |
+| Dashboard | In Progress | Medium |
+| Documentation | Done | Low |
+
+This is useful when you need to see many properties at once.
+
+---
+
+# Board View
+
+A board visually represents work by status.
+
+Example:
+
+```text
+TODO          IN PROGRESS       REVIEW          DONE
+────          ───────────       ──────          ────
+
+Issue #1      Issue #4           Issue #7        Issue #2
+Issue #3      Issue #5                           Issue #6
+```
+
+Cards can be moved between columns as work progresses.
+
+---
+
+# Roadmap View
+
+A roadmap is useful for planning work over time.
+
+Conceptually:
+
+```text
+August        September       October
+
+Feature A ────────────────┐
+                          ↓
+Feature B        ────────────────┐
+                                 ↓
+Feature C                 ────────────────
+```
+
+It provides a time-oriented view of planned work.
+
 
 ---
 
