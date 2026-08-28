@@ -1,3 +1,56 @@
+# Open Source Contribution
+
+## Introduction
+
+Open source software is software whose source code is available for people to inspect, use, modify, and contribute to according to its license.
+
+GitHub is one of the major platforms used to collaborate on open-source projects.
+
+A typical contribution looks like:
+
+```text
+Find Repository
+      ↓
+Read Documentation
+      ↓
+Find Issue
+      ↓
+Fork Repository
+      ↓
+Clone
+      ↓
+Create Branch
+      ↓
+Make Changes
+      ↓
+Test
+      ↓
+Commit
+      ↓
+Push
+      ↓
+Pull Request
+      ↓
+Code Review
+      ↓
+Merge
+```
+
+---
+
+# What Is an Open-Source Repository?
+
+An open-source repository contains a project whose source code is made available under an open-source license.
+
+It may contain:
+
+```text
+Source Code
+Documentation
+Tests
+Issues
+Workflows
+Configuration
 
 A good first contribution might be:
 
