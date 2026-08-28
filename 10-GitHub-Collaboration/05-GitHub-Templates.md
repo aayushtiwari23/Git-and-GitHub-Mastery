@@ -1,3 +1,188 @@
+# GitHub Templates
+
+## Introduction
+
+GitHub provides templates that help contributors follow a consistent format when creating:
+
+```text
+Issues
+Pull Requests
+```
+
+Templates reduce repetitive writing and make contributions easier to understand.
+
+---
+
+# Why Use Templates?
+
+Without templates:
+
+```text
+Issue
+"Bug not working"
+```
+
+With a template:
+
+```text
+Bug Description
+Steps to Reproduce
+Expected Behavior
+Actual Behavior
+Environment
+Additional Information
+```
+
+The second approach provides much more useful information.
+
+---
+
+# Types of Templates
+
+Common GitHub contribution templates include:
+
+```text
+Issue Templates
+Pull Request Templates
+```
+
+These help standardize how contributors communicate.
+
+---
+
+# Issue Templates
+
+Issue templates can be created for different types of work.
+
+Examples:
+
+```text
+Bug Report
+Feature Request
+Documentation
+Question
+```
+
+A contributor can select the appropriate template when creating an Issue.
+
+---
+
+# Bug Report Template
+
+A bug report should collect:
+
+```text
+Description
+Steps to Reproduce
+Expected Behavior
+Actual Behavior
+Environment
+Screenshots
+Logs
+Additional Information
+```
+
+Example:
+
+```md
+# Bug Report
+
+## Description
+
+Describe the bug clearly.
+
+## Steps to Reproduce
+
+1.
+2.
+3.
+
+## Expected Behavior
+
+What should happen?
+
+## Actual Behavior
+
+What actually happens?
+
+## Environment
+
+- OS:
+- Browser:
+- Version:
+
+## Screenshots
+
+Add screenshots if necessary.
+
+## Additional Information
+
+Add any other useful information.
+```
+
+---
+
+# Feature Request Template
+
+Example:
+
+```md
+# Feature Request
+
+## Feature
+
+Describe the requested feature.
+
+## Problem
+
+What problem does this feature solve?
+
+## Proposed Solution
+
+Describe how the feature could work.
+
+## Alternatives
+
+Describe alternatives that were considered.
+
+## Additional Information
+
+Add any relevant information.
+```
+
+---
+
+# Pull Request Template
+
+A Pull Request template can remind contributors to provide important information.
+
+Example:
+
+```md
+## Summary
+
+Describe the changes.
+
+## Changes
+
+- 
+- 
+- 
+
+## Testing
+
+Describe how the changes were tested.
+
+## Checklist
+
+- [ ] Tests pass
+- [ ] Documentation updated
+- [ ] No secrets committed
+- [ ] Code reviewed
+
+## Related Issue
+
+Fixes #
 
 ```
 
