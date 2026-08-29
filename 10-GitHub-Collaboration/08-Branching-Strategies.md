@@ -1,4 +1,69 @@
+# Git Branching Strategies
 
+## Introduction
+
+A branching strategy defines how a team creates, names, uses, and merges Git branches.
+
+A good strategy helps teams:
+
+```text
+Work Independently
+       ↓
+Avoid Conflicts
+       ↓
+Review Changes
+       ↓
+Test Changes
+       ↓
+Merge Safely
+```
+
+---
+
+# Main Branch
+
+The main branch usually contains the primary version of the project.
+
+Common names:
+
+```text
+main
+master
+```
+
+Modern repositories commonly use:
+
+```text
+main
+```
+
+Avoid making experimental changes directly on `main`.
+
+---
+
+# Feature Branch
+
+A feature branch is created to develop a new feature.
+
+Example:
+
+```bash
+git switch -c feature/dark-mode
+```
+
+Workflow:
+
+```text
+main
+ ↓
+feature/dark-mode
+ ↓
+Development
+ ↓
+Pull Request
+ ↓
+Review
+ ↓
 
 Merge
 ```
