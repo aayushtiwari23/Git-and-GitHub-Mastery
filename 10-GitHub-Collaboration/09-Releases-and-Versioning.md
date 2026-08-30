@@ -1,4 +1,3 @@
-
 # GitHub Releases and Versioning
 
 ## Introduction
