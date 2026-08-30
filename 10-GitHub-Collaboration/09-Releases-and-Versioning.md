@@ -1,3 +1,186 @@
+# GitHub Releases and Versioning
+
+## Introduction
+
+A GitHub Release represents a specific version of a project that is made available to users.
+
+Instead of asking:
+
+```text
+Which version should I use?
+```
+
+users can select a specific release:
+
+```text
+v1.0.0
+v1.1.0
+v2.0.0
+```
+
+A typical release workflow is:
+
+```text
+Development
+    ↓
+Testing
+    ↓
+Version
+    ↓
+Tag
+    ↓
+Release
+    ↓
+Users
+```
+
+---
+
+# What Is a Version?
+
+A version identifies a particular state of a software project.
+
+Example:
+
+```text
+1.0.0
+```
+
+A version helps users understand which project build they are using.
+
+---
+
+# Semantic Versioning
+
+A common versioning system is Semantic Versioning, often called:
+
+```text
+SemVer
+```
+
+The basic format is:
+
+```text
+MAJOR.MINOR.PATCH
+```
+
+Example:
+
+```text
+2.4.1
+```
+
+Where:
+
+```text
+2 = MAJOR
+4 = MINOR
+1 = PATCH
+```
+
+---
+
+# MAJOR Version
+
+Increase the MAJOR version when incompatible changes are introduced.
+
+Example:
+
+```text
+1.5.2
+ ↓
+2.0.0
+```
+
+Conceptually:
+
+```text
+Major Breaking Change
+        ↓
+MAJOR increases
+```
+
+---
+
+# MINOR Version
+
+Increase the MINOR version when new functionality is added in a backward-compatible way.
+
+Example:
+
+```text
+1.5.2
+ ↓
+1.6.0
+```
+
+Conceptually:
+
+```text
+New Feature
+     ↓
+MINOR increases
+```
+
+---
+
+# PATCH Version
+
+Increase the PATCH version for backward-compatible bug fixes.
+
+Example:
+
+```text
+1.5.2
+ ↓
+1.5.3
+```
+
+Conceptually:
+
+```text
+Bug Fix
+   ↓
+PATCH increases
+```
+
+---
+
+# Versioning Examples
+
+```text
+1.0.0 → Initial stable release
+
+1.0.1 → Bug fix
+
+1.0.2 → Another bug fix
+
+1.1.0 → New backward-compatible feature
+
+1.2.0 → Another feature
+
+2.0.0 → Breaking change
+```
+
+---
+
+# Versioning Model
+
+Remember:
+
+```text
+MAJOR.MINOR.PATCH
+   │      │     │
+   │      │     └── Bug fixes
+   │      └──────── New features
+   └─────────────── Breaking changes
+```
+
+---
+
+# What Is a Git Tag?
+
+A Git tag is a reference that points to a specific commit.
 
 Example:
 
