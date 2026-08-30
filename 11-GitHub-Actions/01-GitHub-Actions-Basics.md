@@ -1,4 +1,3 @@
-
 # GitHub Actions Basics
 
 ## Introduction
