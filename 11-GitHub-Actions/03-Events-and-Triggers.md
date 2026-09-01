@@ -1,10 +1,4 @@
-# GitHub Actions Events and Triggers
-
-## Introduction
-
-A GitHub Actions workflow needs a trigger that determines when it should run.
-
-The trigger is defined using:
+ using:
 
 ```yaml
 on:
