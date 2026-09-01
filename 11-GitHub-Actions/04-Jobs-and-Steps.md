@@ -1,3 +1,16 @@
+# GitHub Actions Jobs and Steps
+
+## Introduction
+
+A GitHub Actions workflow is made up of jobs, and each job contains steps.
+
+```text
+Workflow
+   ↓
+  Jobs
+   ↓
+ Steps
+```
 
 Example:
 
