@@ -1,4 +1,3 @@
-
 # GitHub Actions Runners
 
 ## 1. What is a Runner?
