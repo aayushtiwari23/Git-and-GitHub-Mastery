@@ -1,10 +1,4 @@
-# GitHub Actions Runners
 
-## 1. What is a Runner?
-
-A runner is the machine that actually executes the jobs defined in a GitHub Actions workflow.
-
-For example:
 
 ```yaml
 jobs:
