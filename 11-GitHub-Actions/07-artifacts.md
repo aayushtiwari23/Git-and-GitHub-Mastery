@@ -1,20 +1,3 @@
-# GitHub Actions Artifacts
-
-## 1. What Are Artifacts?
-
-Artifacts are files or folders produced by a GitHub Actions workflow that you want to save after a job finishes.
-
-Examples:
-
-- Build files
-- Test reports
-- Screenshots
-- Logs
-- Compiled programs
-- ZIP files
-- Coverage reports
-
-For example:
 
 ```text
 Application
