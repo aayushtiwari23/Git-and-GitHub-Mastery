@@ -1,4 +1,3 @@
-
 # GitHub Actions Secrets and Variables
 
 ## 1. What Are Secrets and Variables?
