@@ -1,4 +1,3 @@
-
 # GitHub Actions Artifacts
 
 ## 1. What Are Artifacts?
