@@ -1,4 +1,10 @@
+# GitHub Actions Secrets and Variables
 
+## 1. What Are Secrets and Variables?
+
+GitHub Actions workflows often need configuration values.
+
+Examples:
 
 - API keys
 - Tokens
