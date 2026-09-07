@@ -1,4 +1,3 @@
-
 # GitHub Actions Matrix Builds
 
 ## 1. What Is a Matrix Build?
