@@ -1,4 +1,3 @@
-
 # GitHub Actions Environments
 
 ## 1. What Is an Environment?
