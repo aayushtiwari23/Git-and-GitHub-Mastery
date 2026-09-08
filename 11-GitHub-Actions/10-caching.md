@@ -1,4 +1,161 @@
--latest
+# GitHub Actions Caching
+
+## 1. What Is Caching?
+
+Caching means storing files that can be reused in future workflow runs.
+
+The main purpose of caching is to make workflows faster.
+
+For example:
+
+```text
+First Run
+   ↓
+Download dependencies
+   ↓
+Store in cache
+
+Next Run
+   ↓
+Restore cache
+   ↓
+Skip downloading everything again
+```
+
+---
+
+## 2. Why Is Caching Useful?
+
+Many projects repeatedly download the same dependencies.
+
+For example, a Node.js project may download:
+
+```text
+node_modules
+```
+
+A Python project may download:
+
+```text
+Python packages
+```
+
+A Java project may download:
+
+```text
+Maven dependencies
+```
+
+Downloading these files every time can make workflows slower.
+
+Caching can reduce unnecessary downloads.
+
+---
+
+## 3. Cache vs Artifact
+
+Do not confuse caching with artifacts.
+
+### Cache
+
+Used mainly to speed up future workflow runs.
+
+```text
+Dependencies
+Build cache
+Package manager cache
+```
+
+### Artifact
+
+Used to save files produced by a workflow.
+
+```text
+Build output
+Test report
+Logs
+Screenshots
+```
+
+Simple rule:
+
+```text
+Speed up future runs → Cache
+
+Save workflow output → Artifact
+```
+
+---
+
+## 4. GitHub Actions Cache
+
+GitHub provides:
+
+```yaml
+actions/cache
+```
+
+Example:
+
+```yaml
+- name: Cache files
+  uses: actions/cache@v4
+  with:
+    path: ~/.cache/myapp
+    key: my-cache
+```
+
+Here:
+
+```yaml
+path:
+```
+
+specifies what should be cached.
+
+And:
+
+```yaml
+key:
+```
+
+identifies the cache.
+
+---
+
+## 5. Cache Keys
+
+A cache key identifies a particular cache.
+
+Example:
+
+```yaml
+key: my-cache-v1
+```
+
+If the key changes:
+
+```yaml
+key: my-cache-v2
+```
+
+GitHub treats it as a different cache.
+
+Cache keys are important because dependencies can change.
+
+---
+
+## 6. Example
+
+```yaml
+name: Cache Demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Create cache directory
