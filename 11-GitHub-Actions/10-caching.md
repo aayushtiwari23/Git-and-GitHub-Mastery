@@ -1,4 +1,3 @@
-
 # GitHub Actions Caching
 
 ## 1. What Is Caching?
