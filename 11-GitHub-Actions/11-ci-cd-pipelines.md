@@ -1,3 +1,6 @@
+# GitHub Actions CI/CD Pipelines
+
+## 1. What is CI?
 
 CI stands for **Continuous Integration**.
 
