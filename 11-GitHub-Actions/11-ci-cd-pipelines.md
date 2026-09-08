@@ -1,4 +1,3 @@
-
 # GitHub Actions CI/CD Pipelines
 
 ## 1. What is CI?
