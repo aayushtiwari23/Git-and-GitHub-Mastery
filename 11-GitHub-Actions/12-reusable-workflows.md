@@ -1,4 +1,65 @@
+# GitHub Actions Reusable Workflows
 
+## 1. What Is a Reusable Workflow?
+
+A reusable workflow is a GitHub Actions workflow that can be called and used by another workflow.
+
+Instead of copying the same workflow code into multiple files, you can create it once and reuse it.
+
+Example:
+
+```text
+Workflow A ──┐
+             ↓
+        Reusable Workflow
+             ↑
+Workflow B ──┘
+```
+
+---
+
+## 2. Why Use Reusable Workflows?
+
+Reusable workflows help reduce duplicate code.
+
+Without reusable workflows:
+
+```text
+Project A
+  ↓
+Copy workflow
+
+Project B
+  ↓
+Copy workflow
+
+Project C
+  ↓
+Copy workflow
+```
+
+With reusable workflows:
+
+```text
+Reusable Workflow
+       ↑
+       ├── Project A
+       ├── Project B
+       └── Project C
+```
+
+---
+
+## 3. The `workflow_call` Trigger
+
+A workflow becomes reusable by using:
+
+```yaml
+on:
+  workflow_call:
+```
+
+Example:
 
 ```yaml
 name: Reusable Build
