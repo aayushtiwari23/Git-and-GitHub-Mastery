@@ -1,4 +1,3 @@
-
 # GitHub Actions Reusable Workflows
 
 ## 1. What Is a Reusable Workflow?
