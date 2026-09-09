@@ -1,4 +1,3 @@
-
 # GitHub Actions Composite Actions
 
 ## 1. What Is a Composite Action?
