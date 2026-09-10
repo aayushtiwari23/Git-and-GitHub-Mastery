@@ -1,4 +1,3 @@
-
 # GitHub Actions Custom Actions
 
 ## 1. What Is a Custom Action?
