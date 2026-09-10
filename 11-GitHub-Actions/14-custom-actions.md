@@ -1,32 +1,3 @@
-# GitHub Actions Custom Actions
-
-## 1. What Is a Custom Action?
-
-A custom action is a reusable piece of automation that you create for GitHub Actions.
-
-Instead of repeatedly writing the same logic inside workflows, you can package that logic into an action.
-
-Example:
-
-```text
-Workflow
-   ↓
-Custom Action
-   ↓
-Your automation logic
-```
-
-Custom actions can be created using:
-
-- JavaScript
-- Docker
-- Composite Actions
-
----
-
-## 2. Why Create Custom Actions?
-
-Custom actions are useful when you have automation that you want to reuse.
 
 Benefits:
 
