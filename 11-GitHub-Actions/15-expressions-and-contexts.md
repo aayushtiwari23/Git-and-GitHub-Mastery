@@ -1,4 +1,3 @@
-
 # GitHub Actions Expressions and Contexts
 
 ## 1. What Are Expressions?
