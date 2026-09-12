@@ -1,4 +1,44 @@
+# GitHub Actions Expressions and Contexts
 
+## 1. What Are Expressions?
+
+Expressions allow you to dynamically evaluate values and conditions inside GitHub Actions workflows.
+
+They are commonly written using:
+
+```yaml
+${{ expression }}
+```
+
+Example:
+
+```yaml
+- run: echo "Repository: ${{ github.repository }}"
+```
+
+---
+
+## 2. Why Use Expressions?
+
+Expressions allow workflows to make decisions and use dynamic information.
+
+For example:
+
+```text
+If tests pass
+      ↓
+Deploy
+```
+
+Or:
+
+```text
+If branch = main
+      ↓
+Run deployment
+```
+
+---
 
 ## 3. Basic Expression Syntax
 
@@ -953,8 +993,3 @@ Workflow Action
 
 Next topic: GitHub Actions Debugging and Troubleshooting
 
-Commit message:
-
-```text
-Add GitHub Actions expressions and contexts guide
-```
