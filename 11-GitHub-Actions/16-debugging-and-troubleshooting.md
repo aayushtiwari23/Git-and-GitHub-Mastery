@@ -1,4 +1,3 @@
-
 # GitHub Actions Debugging and Troubleshooting
 
 ## 1. What Is Debugging?
