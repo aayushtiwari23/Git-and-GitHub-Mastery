@@ -1,4 +1,57 @@
+# GitHub Actions Debugging and Troubleshooting
 
+## 1. What Is Debugging?
+
+Debugging means finding and fixing problems in a GitHub Actions workflow.
+
+A workflow can fail because of:
+
+- YAML syntax
+- Incorrect commands
+- Missing permissions
+- Wrong secrets
+- Incorrect paths
+- Dependency problems
+- Environment differences
+- Failed tests
+- Incorrect conditions
+- Action configuration
+
+---
+
+## 2. First Step When a Workflow Fails
+
+Go to:
+
+```text
+GitHub Repository
+    ↓
+Actions
+    ↓
+Select Workflow
+    ↓
+Select Failed Run
+    ↓
+Select Failed Job
+    ↓
+Read Logs
+```
+
+Always start with the actual error message.
+
+Don't immediately rewrite the entire workflow.
+
+---
+
+## 3. Understanding Workflow Status
+
+Common statuses include:
+
+```text
+Queued
+In progress
+Success
+Failure
 Cancelled
 Skipped
 ```
@@ -821,8 +874,3 @@ Observe → Identify → Fix → Verify
 
 Next topic: GitHub Actions Advanced Security and Best Practices
 
-Commit message:
-
-```text
-Add GitHub Actions debugging and troubleshooting guide
-```
