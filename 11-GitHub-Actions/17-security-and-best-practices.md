@@ -1,28 +1,4 @@
-# GitHub Actions Security and Best Practices
 
-## 1. Why Security Matters
-
-GitHub Actions workflows can:
-
-- Read repository files
-- Execute commands
-- Access secrets
-- Create releases
-- Deploy applications
-- Access cloud services
-- Modify repository resources
-
-A poorly configured workflow can therefore create serious security risks.
-
----
-
-## 2. Principle of Least Privilege
-
-Give a workflow only the permissions it actually needs.
-
-Example:
-
-```yaml
 permissions:
   contents: read
 ```
