@@ -809,8 +809,4 @@ A secure CI/CD pipeline should make it difficult for a compromised workflow to a
 
 Next topic: GitHub Actions Advanced Workflow Patterns
 
-Commit message:
 
-```text
-Add GitHub Actions security and best practices guide
-```
