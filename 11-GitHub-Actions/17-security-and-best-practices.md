@@ -1,4 +1,3 @@
-
 # GitHub Actions Security and Best Practices
 
 ## 1. Why Security Matters
