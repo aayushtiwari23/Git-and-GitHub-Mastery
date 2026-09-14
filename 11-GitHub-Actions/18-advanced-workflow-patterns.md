@@ -872,4 +872,82 @@ When files need to be preserved or transferred between jobs.
 
 ### Q6. When should you use caching?
 
-When you want to speed up repeated operations such
+When you want to speed up repeated operations such as dependency installation.
+
+### Q7. What is concurrency?
+
+A mechanism for controlling multiple workflow runs that belong to the same concurrency group.
+
+### Q8. Why use environments for production?
+
+They provide a controlled deployment target where protection rules and environment-specific secrets can be configured.
+
+### Q9. Why use reusable workflows?
+
+To avoid duplicating complete workflow/job logic.
+
+### Q10. Why use composite actions?
+
+To package and reuse a collection of workflow steps.
+
+---
+
+# Summary
+
+Advanced GitHub Actions workflows combine multiple concepts into organized automation.
+
+Important patterns include:
+
+```text
+Parallel Jobs
+Job Dependencies
+Job Outputs
+Artifacts
+Caching
+Matrix Builds
+Conditions
+Manual Workflows
+Reusable Workflows
+Composite Actions
+Environments
+Concurrency
+Failure Handling
+```
+
+A strong CI/CD design usually follows:
+
+```text
+Check
+  ↓
+Build
+  ↓
+Test
+  ↓
+Security
+  ↓
+Package
+  ↓
+Staging
+  ↓
+Production
+```
+
+The main goal is not to make workflows complicated.
+
+The goal is to make them:
+
+```text
+Reliable
+Reusable
+Secure
+Fast
+Maintainable
+```
+
+Next topic: GitHub Actions Final Project — Complete CI/CD Pipeline
+
+Commit message:
+
+```text
+Add advanced GitHub Actions workflow patterns guide
+```
