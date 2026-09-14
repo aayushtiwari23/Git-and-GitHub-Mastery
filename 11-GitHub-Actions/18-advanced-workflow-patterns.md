@@ -1,4 +1,3 @@
-
 # GitHub Actions Advanced Workflow Patterns
 
 ## 1. What Are Advanced Workflow Patterns?
