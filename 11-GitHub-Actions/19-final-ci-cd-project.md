@@ -1,4 +1,3 @@
-
 # GitHub Actions Final CI/CD Project
 
 ## 1. Project Overview
