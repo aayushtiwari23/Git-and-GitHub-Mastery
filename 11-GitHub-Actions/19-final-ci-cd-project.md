@@ -1,4 +1,22 @@
+# GitHub Actions Final CI/CD Project
 
+## 1. Project Overview
+
+In this project, we will combine the GitHub Actions concepts learned throughout this series into one complete CI/CD pipeline.
+
+The pipeline will demonstrate:
+
+- Workflow triggers
+- Jobs
+- Steps
+- Actions
+- Environment variables
+- Secrets
+- Expressions
+- Conditions
+- Job dependencies
+- Artifacts
+- Caching
 - Matrix testing
 - Environments
 - Concurrency
