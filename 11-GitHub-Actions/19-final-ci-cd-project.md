@@ -1061,10 +1061,4 @@ Next major topic in the broader roadmap:
 
 ```text
 Linux
-```
-
-Commit message:
-
-```text
-Build complete GitHub Actions CI/CD pipeline
-```
+``
