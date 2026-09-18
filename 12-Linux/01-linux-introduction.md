@@ -1,3 +1,162 @@
+# Linux Introduction
+## 1. What Is Linux?
+
+Linux is an open-source operating system kernel.
+
+A complete Linux operating system is usually called a Linux distribution or distro.
+
+Examples:
+
+```text
+Ubuntu
+Debian
+Fedora
+Arch Linux
+Linux Mint
+Kali Linux
+Red Hat Enterprise Linux
+```
+
+Linux is widely used in:
+
+- Servers
+- Cloud computing
+- DevOps
+- Cybersecurity
+- Software development
+- Containers
+- Networking
+- Embedded systems
+- Supercomputers
+
+---
+
+## 2. Linux vs Windows
+
+Linux and Windows are both operating-system platforms, but they work differently.
+
+| Feature | Linux | Windows |
+|---|---|---|
+| Source | Mostly open source | Mostly proprietary |
+| Terminal | Very important | Available |
+| Customization | Very high | Moderate |
+| Servers | Very common | Very common |
+| Development | Very popular | Very popular |
+| Package management | Distribution-dependent | Microsoft Store / installers / package managers |
+| File system | Unix-like hierarchy | Drive-based structure |
+
+---
+
+## 3. Linux Kernel
+
+The kernel is the core component of the operating system.
+
+It manages:
+
+```text
+CPU
+Memory
+Processes
+Devices
+File systems
+Networking
+Security
+```
+
+Conceptually:
+
+```text
+Applications
+     ↓
+Shell / System Libraries
+     ↓
+Linux Kernel
+     ↓
+Hardware
+```
+
+---
+
+## 4. Linux Distribution
+
+A Linux distribution combines the Linux kernel with additional software.
+
+For example:
+
+```text
+Linux Kernel
+     +
+Package Manager
+     +
+System Utilities
+     +
+Desktop Environment
+     +
+Applications
+     ↓
+Linux Distribution
+```
+
+Ubuntu is an example of a Linux distribution.
+
+---
+
+## 5. Ubuntu
+
+Ubuntu is one of the most widely used Linux distributions.
+
+It is commonly used for:
+
+- Learning Linux
+- Programming
+- Servers
+- Cloud computing
+- DevOps
+- Development environments
+
+For beginners, Ubuntu is a good distribution to learn Linux fundamentals.
+
+---
+
+## 6. Linux Terminal
+
+The terminal is a text-based interface used to interact with the operating system.
+
+Example:
+
+```bash
+pwd
+```
+
+The terminal allows you to:
+
+```text
+Navigate files
+Create files
+Delete files
+Install software
+Manage processes
+Inspect systems
+Configure networks
+Automate tasks
+```
+
+---
+
+## 7. Shell
+
+A shell is a program that interprets commands and communicates with the operating system.
+
+Common shells include:
+
+```text
+Bash
+Zsh
+Fish
+PowerShell
+```
+
+Bash is one of the most commonly encountered shells on Linux.
 
 ---
 
