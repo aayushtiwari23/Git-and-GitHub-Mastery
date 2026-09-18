@@ -1,5 +1,4 @@
 # Linux Introduction
-
 ## 1. What Is Linux?
 
 Linux is an open-source operating system kernel.
