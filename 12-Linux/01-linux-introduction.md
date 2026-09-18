@@ -986,9 +986,3 @@ Remove
 ```
 
 Next topic: Linux Filesystem and File Management
-
-Commit message:
-
-```text
-Add Linux introduction and basic commands
-```
