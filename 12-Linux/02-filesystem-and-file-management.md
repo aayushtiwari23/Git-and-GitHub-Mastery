@@ -1,4 +1,3 @@
-
 # Linux Filesystem and File Management
 
 ## 1. Linux Filesystem
