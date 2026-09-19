@@ -1250,11 +1250,4 @@ Search
 Delete
 ```
 
-Next topic: Linux File Permissions and Ownership
-
-Commit message:
-
-```text
-Add Linux filesystem and file management guide
-```
-```
+Next topic: Linux File Permissions and Ownership 
