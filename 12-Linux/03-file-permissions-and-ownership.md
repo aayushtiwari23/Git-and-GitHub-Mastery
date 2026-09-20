@@ -1,3 +1,221 @@
+# Linux File Permissions and Ownership
+
+## 1. Why File Permissions Matter
+
+Linux is a multi-user operating system.
+
+Different users may need different levels of access to files and directories.
+
+Linux permissions control:
+
+```text
+Who can access something
+What they can do
+Whether they can execute it
+```
+
+The three basic permissions are:
+
+```text
+r → Read
+w → Write
+x → Execute
+```
+
+---
+
+## 2. Three Permission Categories
+
+Linux permissions are assigned to three categories:
+
+```text
+User
+Group
+Others
+```
+
+### User
+
+The owner of the file.
+
+### Group
+
+Users belonging to the file's group.
+
+### Others
+
+Everyone else.
+
+---
+
+## 3. Viewing Permissions
+
+Run:
+
+```bash
+ls -l
+```
+
+Example:
+
+```text
+-rw-r--r-- 1 aayush users 120 Sep 20 notes.txt
+```
+
+The first part:
+
+```text
+-rw-r--r--
+```
+
+contains the permissions.
+
+---
+
+## 4. Understanding Permission Structure
+
+Consider:
+
+```text
+-rw-r--r--
+```
+
+Break it into:
+
+```text
+- rw- r-- r--
+  │   │   │
+  │   │   └── Others
+  │   └────── Group
+  └────────── User
+```
+
+The first character indicates the file type.
+
+```text
+- → Regular file
+d → Directory
+l → Symbolic link
+```
+
+---
+
+## 5. Read Permission
+
+```text
+r
+```
+
+Read allows you to view the contents of a file.
+
+For example:
+
+```bash
+cat notes.txt
+```
+
+requires appropriate read permission.
+
+Numeric value:
+
+```text
+r = 4
+```
+
+---
+
+## 6. Write Permission
+
+```text
+w
+```
+
+Write allows modification of a file.
+
+Numeric value:
+
+```text
+w = 2
+```
+
+---
+
+## 7. Execute Permission
+
+```text
+x
+```
+
+Execute allows a file to be executed as a program or script when the system and other permissions permit it.
+
+Numeric value:
+
+```text
+x = 1
+```
+
+---
+
+## 8. Permission Values
+
+Remember:
+
+```text
+r = 4
+w = 2
+x = 1
+```
+
+Therefore:
+
+```text
+r-- = 4
+-w- = 2
+--x = 1
+```
+
+Combining permissions:
+
+```text
+rw- = 4 + 2 = 6
+r-x = 4 + 1 = 5
+-wx = 2 + 1 = 3
+rwx = 4 + 2 + 1 = 7
+```
+
+---
+
+## 9. Numeric Permissions
+
+The three permission groups each receive a number.
+
+Example:
+
+```text
+755
+```
+
+means:
+
+```text
+7 → User
+5 → Group
+5 → Others
+```
+
+And:
+
+```text
+7 = rwx
+5 = r-x
+5 = r-x
+```
+
+Therefore:
+
+```text
+755 → rwxr-xr-x
+```
 
 ---
 
