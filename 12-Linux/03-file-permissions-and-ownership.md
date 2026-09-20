@@ -1240,10 +1240,3 @@ So:
 ```
 
 Next topic: Linux Users, Groups, and User Management
-
-Commit message:
-
-```text
-Add Linux file permissions and ownership guide
-```
-```
