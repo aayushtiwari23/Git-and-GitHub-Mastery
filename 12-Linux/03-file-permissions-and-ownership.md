@@ -1,4 +1,3 @@
-
 # Linux File Permissions and Ownership
 
 ## 1. Why File Permissions Matter
