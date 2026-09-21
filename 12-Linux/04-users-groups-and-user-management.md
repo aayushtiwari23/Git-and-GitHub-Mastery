@@ -1,4 +1,3 @@
-
 # Linux Users, Groups, and User Management
 
 ## 1. Why Users and Groups Matter
