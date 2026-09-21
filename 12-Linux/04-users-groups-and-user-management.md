@@ -1295,10 +1295,3 @@ Least Privilege
 Give users only the access they actually need.
 
 Next topic: Linux Processes and Process Management
-
-Commit message:
-
-```text
-Add Linux users groups and user management guide
-```
-```
