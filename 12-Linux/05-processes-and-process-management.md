@@ -1,4 +1,3 @@
-
 # Linux Processes and Process Management
 
 ## 1. What Is a Process?
