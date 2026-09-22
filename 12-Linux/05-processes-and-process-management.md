@@ -1241,10 +1241,3 @@ Try graceful termination before force killing a process.
 ```
 
 Next topic: Linux Package Management
-
-Commit message:
-
-```text
-Add Linux process management guide
-```
-```
