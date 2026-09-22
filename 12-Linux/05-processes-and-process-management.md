@@ -1,3 +1,186 @@
+# Linux Processes and Process Management
+
+## 1. What Is a Process?
+
+A process is a running instance of a program.
+
+For example, when you run:
+
+```bash
+python app.py
+```
+
+Linux creates a process for that running program.
+
+Conceptually:
+
+```text
+Program on disk
+      ↓
+     Run
+      ↓
+   Process
+```
+
+---
+
+## 2. Program vs Process
+
+A **program** is a set of instructions stored on disk.
+
+A **process** is that program while it is running.
+
+Example:
+
+```text
+app.py
+  ↓
+python app.py
+  ↓
+Running process
+```
+
+---
+
+## 3. Process ID
+
+Every running process normally has a unique numeric identifier called:
+
+```text
+PID
+```
+
+PID means:
+
+```text
+Process ID
+```
+
+You can use the PID to inspect or manage a process.
+
+---
+
+## 4. PID 1
+
+Linux systems have a special first userspace process.
+
+It normally has:
+
+```text
+PID = 1
+```
+
+On many modern distributions, PID 1 is:
+
+```text
+systemd
+```
+
+PID 1 is responsible for important system initialization and service management.
+
+---
+
+## 5. `ps`
+
+The `ps` command displays information about running processes.
+
+Run:
+
+```bash
+ps
+```
+
+Example:
+
+```text
+PID TTY          TIME CMD
+1234 pts/0    00:00:00 bash
+1250 pts/0    00:00:00 ps
+```
+
+---
+
+## 6. `ps aux`
+
+A common command is:
+
+```bash
+ps aux
+```
+
+It provides a broader list of processes.
+
+You may see:
+
+```text
+USER
+PID
+%CPU
+%MEM
+VSZ
+RSS
+TTY
+STAT
+START
+TIME
+COMMAND
+```
+
+---
+
+## 7. `ps -ef`
+
+Another commonly used format is:
+
+```bash
+ps -ef
+```
+
+This provides information about processes and their parent-child relationships.
+
+---
+
+## 8. Finding a Process
+
+You can search process output with:
+
+```bash
+ps aux | grep nginx
+```
+
+However, `grep` can sometimes also match itself.
+
+A cleaner command on many systems is:
+
+```bash
+pgrep nginx
+```
+
+---
+
+## 9. `pgrep`
+
+`pgrep` searches for processes by name or other criteria.
+
+Example:
+
+```bash
+pgrep bash
+```
+
+It may return:
+
+```text
+1234
+```
+
+That number is a PID.
+
+---
+
+## 10. `pidof`
+
+You can also use:
 
 ```bash
 pidof bash
