@@ -1220,10 +1220,3 @@ Use trusted package sources and review important changes before confirming.
 ```
 
 Next topic: Linux Services and systemd
-
-Commit message:
-
-```text
-Add Linux package management guide
-```
-```
