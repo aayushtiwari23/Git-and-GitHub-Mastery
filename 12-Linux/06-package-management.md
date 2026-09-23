@@ -1,4 +1,3 @@
-
 # Linux Package Management
 
 ## 1. What Is Package Management?
