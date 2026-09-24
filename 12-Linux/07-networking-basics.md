@@ -1,4 +1,3 @@
-
 # Linux Networking Basics
 
 ## 1. What Is Networking?
