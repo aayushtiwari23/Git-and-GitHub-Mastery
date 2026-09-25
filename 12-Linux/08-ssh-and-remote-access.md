@@ -1,4 +1,3 @@
-
 # Linux SSH and Remote Access
 
 ## 1. What Is SSH?
